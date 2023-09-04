@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="display">
+
+            <p id="displayNum"> 0</p>
+
+        </div>
+
+
+        <div class="row1">
+            <button id="btn1" onclick="populateDisplay('AC')"> AC </button>
+            <button id="btn2" onclick="populateDisplay('+/-')"> + / - </button>
+            <button id="btn3" onclick="populateDisplay('%')"> % </button>
+            <button id="btn4" class="symbol" onclick="populateDisplay('/')"> / </button>
+        </div>
+
+        <div class="row2">
+            <button id="btn5" onclick="populateDisplay('7')"> 7 </button>
+            <button id="btn6" onclick="populateDisplay('8')"> 8 </button>
+            <button id="btn7" onclick="populateDisplay('9')"> 9 </button>
+            <button id="btn8" class="symbol" onclick="populateDisplay('*')"> * </button>
+        </div>
+
+        <div class="row3">
+            <button id="btn9" onclick="populateDisplay('4')"> 4 </button>
+            <button id="btn10" onclick="populateDisplay('5')"> 5 </button>
+            <button id="btn11" onclick="populateDisplay('6')"> 6 </button>
+            <button id="btn12" class="symbol" onclick="populateDisplay('-')"> - </button>
+        </div>
+
+        <div class="row4">
+            <button id="btn13" onclick="populateDisplay('1')"> 1 </button>
+            <button id="btn14" onclick="populateDisplay('2')"> 2 </button>
+            <button id="btn15" onclick="populateDisplay('3')"> 3 </button>
+            <button id="btn16" class="symbol" onclick="populateDisplay('+')"> + </button>
+        </div>
+
+        <div class="row5">
+            <button id="btn17" class="btn0" onclick="populateDisplay('0')"> 0 </button>
+            <button id="btn18" onclick="populateDisplay('.')"> . </button>
+            <button id="btn19" class="symbol" onclick="populateDisplay('=')"> = </button>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
