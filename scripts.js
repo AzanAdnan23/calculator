@@ -58,12 +58,10 @@ function evaluate() {
         break;
     }
   }
-
   secondNum = null;
   displayNum = firstNum.toString();
   updateDisplay();
 }
-
 function allClear() {
   firstNum = null;
   secondNum = null;
